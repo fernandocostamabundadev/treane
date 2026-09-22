@@ -1,0 +1,33 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "Node",
+    "Express",
+    "TypeScript",
+    "Prisma",
+    "PostgreSQL"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fernandocostamabundadev/treane.git"
+  },
+  "license": "MIT",
+  "author": "Fernando Costa Mabunda",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "tsx watch src/server.js",
+    "start": "tsx src/server.js"
+  },
+  "dependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.2",
+    "dotenv": "^18.0.2",
+    "express": "^5.2.1",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
