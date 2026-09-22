@@ -11,14 +11,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "github.com/fernandocostamabundadev/treane.git"
+    "url": "https://github.com/fernandocostamabundadev/treane.git"
   },
   "license": "MIT",
   "author": "Fernando Costa Mabunda",
-  "type": "commonjs",
-  "main": "index.js",
+  "type": "module",
+  "main": "src/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsx watch src/server.js",
+    "start": "tsx src/server.js"
   },
   "dependencies": {
     "@types/dotenv": "^6.1.1",
